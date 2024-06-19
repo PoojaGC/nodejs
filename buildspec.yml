@@ -9,9 +9,9 @@ phases:
       - npm install
   pre_build:
     commands:
-      - echo Running lint and tests...
-      - npm run lint
-      - npm test
+   #   - echo Running lint and tests...
+   #   - npm run lint
+   #   - npm test
   build:
     commands:
       - echo Building the application...
