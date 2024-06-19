@@ -3,9 +3,15 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha tests/*.js",
+    "build": "echo 'Building application...'"  // Add your actual build command here
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+   
+    "mocha": "^9.1.3"
   }
 }
